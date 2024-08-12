@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+
+$cor-titulo: green;
+$corSubtitulo: pink;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: rgb(235, 62, 194);
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2{
+  color: $cor-titulo;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.vermelho{
+  color: rgb(255, 0, 0);
+}
+
+.verde{
+  color: rgb(0, 255,0);
+}
+
+.azul{
+  color: rgb(0, 0, 255);
+}
+
+section{
+  margin: 10px;
+  padding-left: 30px;
+}
+
+.rgb{
+ border: solid tomato;
+}
+//Nesting 
+.rgba{
+  border: purple solid ;
+  
+  p{
+      color: rgba(0, 0, 255, 0.2);
+  }
+}
+
+.hexa{
+  border: red solid;
+}
